@@ -39,7 +39,7 @@ describe("calculateGrade", () => {
   });
   test("should return 'F' for a score of 59", () => {
     expect(gradeToLetter(59)).toBe("F");
-  });  // New test case added here
+  });  
 
   // Test cases for invalid inputs
   test("should return an error for a non-numeric input", () => {
